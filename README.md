@@ -13,3 +13,8 @@ git init
 
 Rename the default branch to 'main' if it has a different name:
 git branch -m main 
+
+2. Creating a new branch
+
+Сreate a new branch named "development" and switch to it:
+git checkout -b development

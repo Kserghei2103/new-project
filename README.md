@@ -18,3 +18,14 @@ git branch -m main
 
 Сreate a new branch named "development" and switch to it:
 git checkout -b development
+
+3. Merge changes from the "development" branch into the "main" branch
+
+Switch to the "main" branch:
+git checkout main
+
+Merge changes from the "development" branch into the "main" branch:
+git merge development
+
+Сheck the status and ensure everything is up to dateЄ:
+git status
